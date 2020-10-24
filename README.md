@@ -131,3 +131,11 @@ To change from Mongoose to TypeORM the following steps must be followed:
  * node dist/src/command.js syncRolesPermission
  * node dist/src/command.js createBucket --bucketName experience --region us-east-1
  * npx ts-node src/command.ts createVapID
+
+
+fork:
+    upstream	https://github.com/DigiChanges/node-experience.git
+
+    * git fetch upstream
+    * git rebase upstream/master
+    * git push -f origin master
