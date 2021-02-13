@@ -136,6 +136,10 @@ To change from Mongoose to TypeORM the following steps must be followed:
 fork:
     upstream	https://github.com/DigiChanges/node-experience.git
 
+    * git checkout main
     * git fetch upstream
     * git rebase upstream/master
+    * git push -f origin main
+    * git checkout master
+    * git rebase main
     * git push -f origin master
